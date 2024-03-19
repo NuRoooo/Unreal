@@ -18,7 +18,7 @@ AFPSCharacter::AFPSCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
 	// set our turn rates for input
-	TurnRateGamepad = 10.f;
+	TurnRateGamepad = 1.f;
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
